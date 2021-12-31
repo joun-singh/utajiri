@@ -1,0 +1,16 @@
+.bio-head {
+  flex-wrap: wrap;
+}
+.bio-addresh {
+  flex: 30%;
+}
+
+.bio-photo {
+  flex: 20%;
+  text-align: center;
+}
+
+.bio-desc {
+  flex: 50%;
+  padding: 20px;
+}

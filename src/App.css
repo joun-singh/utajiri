@@ -1,38 +1,154 @@
-.App {
-  text-align: center;
+:root {
+  --blue: #1e90ff;
+  --white: #ffffff;
+  --active: #39b54a;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+* {
+  box-sizing: border-box;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+html {
+  font-size: 16px;
+  color: #fff;
+  background: rgb(11, 13, 18);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+button {
+  cursor: pointer;
+}
+.container {
+  width: 1200px;
+  margin: auto;
+}
+.card {
+  background: linear-gradient(180deg, #050609 0%, #0e1017 100%);
+  box-shadow: 3.84166e-16px 6.2739px 12.5478px rgba(2, 2, 3, 0.8),
+    inset -2.56111e-16px -4.1826px 4.1826px #040507,
+    inset 2.56111e-16px 4.1826px 4.1826px #0f1119;
+  border-radius: 6.13907px;
+}
+
+.ham-icon {
+  width: 28px;
+  height: 3px;
+  background-color: #ffffff;
+  margin: 4px 0;
+}
+
+.d-flex {
   display: flex;
-  flex-direction: column;
   align-items: center;
+}
+
+.column {
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.last {
+  margin-left: auto;
+}
+
+.header-userblock > div {
+  margin-right: 20px;
+}
+
+.nav {
+  list-style-type: none;
+}
+
+.nav > li > a {
+  padding: 10px;
+  text-decoration: none;
+  color: #fff;
+  font-size: 14px;
+}
+.money {
+  position: absolute;
+}
+.money-b {
+  position: absolute;
+  bottom: -27px;
+  left: 5px;
+}
+
+.center {
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+}
+.justified-between {
+  justify-content: space-between;
 }
 
-.App-link {
-  color: #61dafb;
+.icon-container {
+  margin: 0 1.5rem;
+  borderr: 50px;
+  border-radius: 50px;
+  background: linear-gradient(180deg, #050609 0%, #0e1017 100%);
+  box-shadow: 2.93915e-16px 4.8px 9.6px rgb(2 2 3 / 80%),
+    inset -1.95943e-16px -3.2px 3.2px #040507,
+    inset 1.95943e-16px 3.2px 3.2px #0f1119;
+  width: 68px;
+  height: 68px;
+  display: flex;
+  align-items: center;
+  /* text-align: center; */
+  justify-content: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.sidemenu {
+  width: 383px;
+  height: 100vh;
+}
+.sidemenu > a {
+  display: block;
+  width: 100%;
+  padding: 1rem;
+  text-decoration: none;
+  color: #fff;
+  font-size: 20px;
+}
+
+.sidemenu > a:nth-of-type(even) {
+  background: #050609;
+}
+
+.close {
+  text-align: right;
+  margin: 10px 10px 0 0;
+}
+
+.mb-1 {
+  margin-bottom: 1rem;
+}
+.ma {
+  margin: auto;
+}
+
+.p-1 {
+  padding: 3rem;
+}
+
+.active {
+  color: var(--active);
+}
+
+.text-white {
+  color: var(--white);
+}
+
+.tabbutton > button {
+  margin: 2rem;
+  font-size: 20px;
+}
+
+.invester-tab {
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+}
+
+.line-under {
+  padding-bottom: 4px;
+  border-bottom: 3px solid var(--active);
 }

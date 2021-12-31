@@ -1,0 +1,40 @@
+.btn {
+  padding: 10px 20px;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+
+.btn-contained {
+  background: linear-gradient(83deg, #2d8e3a 0%, #42d356 89.73%);
+  box-shadow: 6.61697px -0.812462px 13.3333px rgba(11, 36, 15, 0.3415),
+    inset -2.48504px 0.305125px 2.5037px #298436,
+    inset 2.48504px -0.305125px 2.5037px #45dc5a;
+  border: unset;
+  color: #fff;
+}
+
+.btn-outlined {
+  border: 2px solid #39b54a;
+  box-shadow: inset -2.48504px 0.305125px 2.5037px #298436,
+    inset 2.48504px -0.305125px 2.5037px #45dc5a;
+  filter: drop-shadow(6.61697px -0.812462px 13.3333px rgba(11, 36, 15, 0.3415));
+  color: #39b54a;
+  background: transparent;
+}
+
+.btn-transparent {
+  background: transparent;
+  outline: unset;
+  border: unset;
+}
+
+.ml-1 {
+  margin-left: 0.5rem;
+}
+.ml-3 {
+  margin-left: 1.5rem;
+}
+
+.mr-1 {
+  margin-right: 0.5rem;
+}
